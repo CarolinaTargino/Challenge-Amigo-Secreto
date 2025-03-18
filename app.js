@@ -48,8 +48,6 @@ function sortearAmigo() {
   const resultado = document.getElementById("resultado");
   resultado.innerHTML = "O amigo secreto sorteado é: " + sorteados;
 
-  dispararConfete();
-
   sorteados = [];
 
   atualizarLista();
